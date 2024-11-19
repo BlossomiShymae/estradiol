@@ -1,0 +1,14 @@
+[package]
+name = "estradiol"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+estradiol-soundcloud = { path = "../estradiol-soundcloud" }
+eframe = "0.29.1"
+egui = "0.29.1"
+egui_extras = { version = "0.29.1", features = ["all_loaders"]}
+image = {  version = "0.25.5", features = ["jpeg", "png"]}
+rodio = "0.20.1"
+lru = "0.12.5"
+discord-rich-presence = "0.2.5"
